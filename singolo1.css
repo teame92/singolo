@@ -327,6 +327,7 @@
     height: 30px;
     background-color: #f06c64;
     background: url(./assets/arrow.png) 0% no-repeat;
+    cursor: pointer;
 }
 
 .button:hover {
@@ -352,4 +353,73 @@
 .iphonehorizontal {
     position: relative;
     left: -1px;
+}
+
+.section {
+    width: 100%;
+    max-width: 1020px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    padding-top: 67px; 
+}
+
+.section__header {
+    margin-bottom: 45px;
+}
+
+.section__title {
+    font-size: 30px;
+    color: #666d89;
+    font-family: "Lato";
+    margin-top: -2px;
+    font-weight: 900;
+}
+
+.section__text {
+    font-size: 18px;
+    line-height: 29px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    margin-top: 22px;
+    letter-spacing: -0.04px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -20px;
+}
+
+.services__item {
+    width: 33.33333%;
+    display: flex;
+    align-items: start;
+    margin-bottom: 37px;
+}
+
+.services__icon {
+    padding: 0 19px;
+}
+
+.services__info {
+    overflow: hidden;
+    height: 86px;
+}
+
+.services__title {
+    font-size: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.services__text {
+    font-size: 12px;
+    line-height: 21px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: justify;
 }
