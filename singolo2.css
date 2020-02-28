@@ -47,3 +47,55 @@
     max-width: 100%;
     height: auto;
 }
+
+.about-us__team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: -2px 0 62px;
+}
+
+.about-us__managers {
+    width: 302px;
+    height: 448px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us__photo {
+    width: 300px;
+    margin-bottom: 18px;
+}
+
+.about-us__title {
+    font-size: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    margin-bottom: 10px;
+    letter-spacing: -0.04px;
+    overflow: hidden;
+}
+
+.about-us__text {
+    font-size: 12px;
+    line-height: 21px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: justify;
+}
+
+.about-us__icon {
+    margin-top: 21px;
+}
+
+.about-us__link {
+    text-decoration: none;
+    padding-right: 1px;
+}
+
+.about-us__link svg:hover {
+    transform: rotate(360deg);
+    transition: transform 1s;
+}
