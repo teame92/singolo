@@ -146,3 +146,32 @@
     height: 8px;
     background-image: url(./assets/mail.png);
 }
+
+.footer {
+    width: 100%;
+    max-width: 1020px;
+    background-color: #2d303a;
+    margin: 0 auto;
+    height: 76px;
+    display: flex;
+    align-items: center;
+}
+
+.footer__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+    font-size: 12px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 400;
+}
+
+.footer__icon {
+    padding-top: 4px;
+    position: relative;
+    left: 3px;
+}
